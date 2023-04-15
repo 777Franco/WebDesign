@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        body{
+            background-image: url(frankie.jpg);
+            background-repeat: no-repeat;
+            background-size:cover;
+            font-family: cursive;
+        }
+        fieldset {
+	        width: 50%;
+	        border-radius: 20px;
+            border-style: solid;
+            border-width: 5px;
+	        padding: 20px;
+            padding-left: 50px;
+            margin-left: 300px;
+	        margin-top: 50px;
+	        display:flow-root;
+            text-align: justify;
+	        box-shadow: 0px 0px 18px 0 #a49b96;
+            transition: 0.3s ease box-shadow;
+            background-color: 	#9e6150;
+            border-color: #121212;
+            color: #121212;
+            font-size:large;
+        }
+        fieldset:hover {
+	        box-shadow: 0px 0px 30px 0 	#9e6150;
+            background-color: #49986b;
+            border-style: double;
+            border-width: 7px;
+        }
+        #button{
+            border-style: double;
+            background-color: #49986b;
+            font-family: cursive;
+        }
+        h1{
+            font-size: 50px;
+        }
+        footer{
+            background-color: rgb(36, 36, 35);
+            padding: 5px;
+            text-align: center;
+            color: #49986b;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <br><center><h1>Quiz Form</h1></center>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone">
+        </fieldset>
+        <fieldset>
+            <legend>Gender</legend>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <br>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+            <br>
+            <input type="radio" id="other" name="other" value="other" required>
+            <label for="other">Other</label>
+        </fieldset>
+        <fieldset>
+            <legend>Hobbies</legend>
+            <input type="checkbox" id="hobby1" name="hobbies" value="cycling" required>
+            <label for="hobby1">Cycling</label>
+            <br>
+            <input type="checkbox" id="hobby2" name="hobbies" value="basketball" required>
+            <label for="hobby2">Basketball</label>
+            <br>
+            <input type="checkbox" id="hobby3" name="hobbies" value="reading" required>
+            <label for="hobby3">Reading</label>
+            <br>
+            <input type="checkbox" id="hobby4" name="hobbies" value="music" required>
+            <label for="hobby4">Listening to Music</label>
+        </fieldset>
+        <fieldset>
+            <legend>Favorite Color</legend>
+            <select id="color" name="color" required>
+                <option value="">Select a color</option>
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="black">Black</option>
+                <option value="white">White</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Comments</legend>
+            <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Upload a file</legend>
+            <input type="file" id="file" name="file">
+        </fieldset>
+        <fieldset>
+            <legend>Date and Time</legend>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date">
+            <br>
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time">
+        </fieldset>
+        <fieldset>
+            <legend>Numerical Control</legend>
+            <label for="quantity">Quantity (between 1 & 10):</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="10">
+        </fieldset>
+        <br><br>
+        <center><input id="button" type="submit" value="Submit"></center>
+    </form><br><br>
+    <footer>
+        <p>2023 &copy; Franco Delos Reyes</p>
+    </footer>
+</body>
+</html>
