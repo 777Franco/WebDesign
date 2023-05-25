@@ -1,0 +1,120 @@
+body{
+ /*background-image: url(https://www.bing.com/th/id/OGC.41583ce94cd09f706019a37a5e004a4e?pid=1.7&rurl=https%3a%2f%2fi.pinimg.com%2foriginals%2f64%2f05%2f31%2f6405318ac146473a95bfbdcec2b32943.gif&ehk=64orzVPg6Gr0wKYTU4kHA%2bMeIqWMOkkwqJH%2fd2ldWoA%3d);*/
+ background-repeat: no-repeat;
+ background-size:cover;
+}
+a{
+    text-decoration: none;
+}
+li img{
+    max-width: 20%;
+    max-height: 25%;
+    opacity: 0.7;
+    border: 5pt;
+    border-style:double;
+}
+li img:hover{
+    max-width: 20%;
+    max-height: 25%;
+    opacity: 1;
+    border: 5pt;
+    border-style:solid;
+}
+video{
+    max-width: 20%;
+    max-height: 25%;
+    border: 5pt;
+    border-style:double;
+}
+ul li{
+    list-style: none;
+}
+.nav-bar{
+    background-color: #05161A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    color:white;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+.nav-bar ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.nav-list li a {
+    color: #0f969c;
+    padding: 1.5rem;
+    display: block;
+}
+
+
+
+
+
+#footer {
+	background-color: #131313;
+}
+.footer {
+	min-height: 30px;
+	flex-direction: column;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#footer p {
+	color: whitesmoke;
+	font-weight: 500;
+	font-size: 1.8rem;
+	letter-spacing: 0.1rem;
+	margin-top: 10px;
+	margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 10px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    opacity: 0.7;
+    border: 5pt;
+    border-style:double;
+  }
+
+  .column img :hover {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    opacity: 1;
+    border: 5pt;
+    border-style:solid;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }

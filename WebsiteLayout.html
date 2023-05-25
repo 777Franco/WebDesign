@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Website</title>
+  <style>
+
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+  }
+  
+  header {
+    background-color: rgb(36, 36, 35);
+    color: 	#49986b;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: 	#49986b;
+    text-decoration: none;
+  }
+
+  nav li a:hover{
+    color: 	#9e6150;
+    text-decoration: none;
+  }
+  
+  
+  #banner {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #banner img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  #main-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    padding-left: 265px;
+  }
+  
+  article:hover{
+    margin: 10px;
+    padding: 10px;
+    background-color: 	#49986b;
+    border: 1px solid #ccc;
+    flex-basis: calc(33.33% - 20px);
+    box-sizing: border-box;
+  }
+  
+  article {
+    margin: 10px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    flex-basis: calc(33.33% - 20px);
+    box-sizing: border-box;
+  }
+  
+  article h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: rgb(51, 53, 51);
+  }
+  article a:hover{
+    color: #9e6150;
+  }
+   article a{
+    color: #121212;
+  }
+
+  article p{
+    font-size: 1em;
+    text-align: justify;
+    text-align: center;
+  }
+  
+  
+  #About {
+    padding: 10px;
+    background-color: #49986b;
+    border: 1px solid #ccc;
+    flex-basis: 20%;
+  }
+  
+  #About h3 {
+    margin: 0;
+    font-size: 1.2em;
+    text-align: center;
+  }
+  
+  #About ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  #About li {
+    margin: 5px 0;
+    text-align:justify;
+  }
+  
+  #About a {
+    color: rgb(36, 36, 35);
+    text-decoration: none;
+  }
+
+  #Contact {
+    padding: 10px;
+    background-color: #9e6150;
+    border: 1px solid #ccc;
+    flex-basis: 20%;
+  }
+  
+  #Contact h3 {
+    margin: 0;
+    font-size: 1.2em;
+    text-align: center;
+  }
+  
+  #Contact ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  #Contact li {
+    margin: 5px 0;
+    text-align: center;
+  }
+  
+  #Contact a {
+    color: rgb(36, 36, 35);
+    text-decoration: none;
+  }
+  
+  footer {
+    background-color: rgb(36, 36, 35);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 0.8em;
+  }
+  a{
+    text-decoration: none;
+    color: #333;
+  }
+
+  
+  </style>
+
+</head>
+<body>
+
+  <header>
+    
+    <h1>Pranko Dagat</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="banner">
+    <img src="https://www.bing.com/th/id/OGC.4ff088795aff41e835671f1479fa0366?pid=1.7&rurl=https%3a%2f%2fi.pinimg.com%2foriginals%2f99%2fcd%2f09%2f99cd0925c516b5d0a740dffd03c3e0df.gif&ehk=EsTALps4DI4qfZ51JcFRcyw%2bBzSmHNPUEJb%2fZAdK5W0%3d" alt="Banner Image">
+  </div>
+
+  <div id="main-content">
+    <article>
+      <h2> <a href="Indexs.html"><center>My Restaurant</a></h2>
+      <p>Protien Chef Shop!!!</p>
+    </article>
+    <article>
+      <h2><a href="Hummus.html"><center>Hummus Recipe</a></h2>
+      <p>Quick Hummus Recipe!!!</p>
+    </article>
+  </div>
+
+
+  <aside id="About">
+    <h3>About Protein Chef Shop</h3>
+    <ul>
+        <li>Our shop Services are making people gym life easier.</li>
+        <li>The Gym Store strongly believes in offering gym equipment that changes a person's outlook when it comes to health.</li>
+        <li>Delivery/Shipping is available.  Cost is the responsibility of the buyer.  TGS will always  look for the cheapest way to deliver/ship equipment all throughout the Philippines.  Shipping is based on the size of the crate or box.</li>
+        <li>All equipment are made to order and takes 8 to 10 weeks to arrive Manila port.  Orders are placed in a 20gp, 40gp or 40hq container which is placed in a vessel enroute to the Philippines.  We therefore need to fill up container to be able to maintain low cost of equipment.</li>
+        <li>One-time molding cushion is developed according to human engineering which conforms to body curve, comfortable and durable to use.</p>
+    </ul>
+  </aside>
+
+  <aside id="Contact">
+    <h3>Contacts For Restuarant</h3>
+    <br>
+    <center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15465.554793743664!2d121.07821500781249!3d14.288833999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d83c711eb497%3A0x2effcb73b489e50c!2sCaltex!5e0!3m2!1sen!2sph!4v1680581582712!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></center>
+    <br>
+    <ul>
+        <li>Our shop is located at Balibago Cornerner Rsbs 4026 Santa Rosa City Laguna </li>
+        <li>Our location is near Walter Mart santa rosa balibago Enchanted Kingdom</li>
+        <br>
+        <li>Facebook: Protein Shop PH</li>
+        <li>instagram: Protein Shop PH </li>
+        <br>
+        <li>Contact Number: 093-8935-5572</li>
+        <li>Delivery Number: 091-3235-2251</li>
+    </ul>
+  </aside>
+  
+  <footer>
+    <p>&copy; Franco Paulo Delos Reyes 2023</p>
+  </footer>
+
+</body>
+</html>
